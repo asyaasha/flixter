@@ -15,6 +15,10 @@ gem 'puma', '~> 3.0'
 
 gem 'devise'
 
+gem 'figaro'
+
+gem 'fog-aws'
+
 gem 'carrierwave', '~> 1.0'
 
 gem 'rb-fsevent', '~> 0.10.0'
