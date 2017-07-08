@@ -5,20 +5,39 @@
   <%= image_tag current_course.photo, class: 'img-fluid' %>
   <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right'%>
   <br class="clr"/>
-  <div class="text-center">
-    <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
+  <br/>
+  <div class="text-left">
+    <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-md' %>
     </div>
     <ul>
       <% current_course.sections.each do |section| %>
-      <li>
-        <%= section.title %>
-        <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
+       <li data-update-url="#" class="section-li">
+         <div class="header">
+          <i class="fa fa-area-chart" aria-hidden="true"></i>
+         <%= section.title %>
+        </div>  
+        <%= link_to 'New Trip', new_instructor_section_lesson_path(section), class: 'float-left btn btn-primary btn-sm' %>
+        <br class="clr" />
+      <br class="clr" />
         <ul>
         <% section.lessons.each do |lesson| %>
           <li>
+          <div class="row">
+            <div class="col-1">
+            <br />
+            <i class="fa fa-tree" aria-hidden="true"></i>
+            </div>
+        <div class="col-11 text-center">
+        <hr>
+         <p>
           <b><%= lesson.title %></b>
-          -
+          </p>
+          <p>
           <%= lesson.subtitle %>
+          </p>
+        </div>
+        </div>
+         <br class="clr" />
           </li>
           <% end %>
         </ul>

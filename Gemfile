@@ -21,6 +21,9 @@ gem 'figaro'
 
 gem 'stripe'
 
+gem "font-awesome-rails"
+
+gem 'ranked-model'
 
 gem 'carrierwave', '~> 1.0'
 
