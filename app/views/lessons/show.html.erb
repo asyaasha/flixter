@@ -3,6 +3,7 @@
 <div class="booyah-box col-10 offset-1">
   <h2><%= current_lesson.title %></h2>
   <p>
-  <%= current_lesson.subtitle %>
+    <%= current_lesson.subtitle %>
   </p>
+    <%= link_to 'Video', current_lesson.video.to_s %>
 </div>

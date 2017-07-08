@@ -19,9 +19,11 @@ gem 'devise'
 
 gem 'figaro'
 
-gem 'fog-aws'
+
 
 gem 'carrierwave', '~> 1.0'
+
+gem 'carrierwave-aws'
 
 gem 'rb-fsevent', '~> 0.10.0'
 
