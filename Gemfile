@@ -19,6 +19,7 @@ gem 'devise'
 
 gem 'figaro'
 
+gem 'stripe'
 
 
 gem 'carrierwave', '~> 1.0'
