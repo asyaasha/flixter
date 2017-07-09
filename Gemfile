@@ -19,6 +19,8 @@ gem 'devise'
 
 gem 'figaro'
 
+gem 'jquery-ui-rails'
+
 gem 'stripe'
 
 gem "font-awesome-rails"
