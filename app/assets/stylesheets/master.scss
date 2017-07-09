@@ -80,10 +80,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .course-index {
-  background-color: white;
+  background-color: rgba(36, 32, 33, 0.9);
 }
 .title a {
-  color: black;
+  color: goldenrod;
   font-family: 'Days One', sans-serif;
   text-weight:200;
   text-decoration: none;
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border: 1px solid #ccc;
   border-color: black;
   box-shadow: 0px 1px 3px #2a2a2a;
+  background-color: white;
 
   
 }
