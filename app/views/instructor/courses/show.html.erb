@@ -20,7 +20,7 @@
         <br class="clr" />
       <br class="clr" />
         <ul>
-        <% section.lessons.each do |lesson| %>
+        <% section.lessons.rank(:row_order).each do |lesson| %>
           <li>
           <div class="row">
             <div class="col-1">
