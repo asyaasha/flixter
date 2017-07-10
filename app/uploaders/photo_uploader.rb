@@ -24,7 +24,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
   # end
 
   # Process files as they are uploaded:
-   process resize_to_fill: [700, 350]
+   process resize_to_fill: [900, 350]
 
 
   # Create different versions of your uploaded files:

@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .course-index {
   background-color: rgba(36, 32, 33, 0.9);
 }
+title{
+  color: goldenrod;
+}
 .title a {
   color: goldenrod;
   font-family: 'Days One', sans-serif;
@@ -101,9 +104,32 @@ h1, h2, h3, h4, h5, h6, .navbar {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow:         inset 0 0 10px #000000;
 }
+.cr-show {
+  font-family: 'Days One', sans-serif;
+  color: goldenrod;
+  border: 2px solid #ccc;
+  border-color: goldenrod;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
+.patricipate{
+    font-family: 'Days One', sans-serif;
+}
 
-
+.img-show{
+  width: 900px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.text-describtion{
+  position: absolute; 
+  top: 150px; 
+  left: 50px; 
+  width: 100%; 
+  font-size: 20px;
+  font-family: 'Days One', sans-serif;
+}
 
 
 

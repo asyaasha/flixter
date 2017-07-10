@@ -17,7 +17,9 @@
 
 <br/>
 <div class="booyah-box col-10 offset-1">
-  <h1 class="text-center"><%= current_course.title %> </h1>
+<div class="col-6 offset-3">
+  <h2 class="text-center cr-show"><%= current_course.title %> </h2>
+  </div>
   <br/>
   <%= image_tag current_course.photo, class: 'img-fluid' %>
   <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right'%>
