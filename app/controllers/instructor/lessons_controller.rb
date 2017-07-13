@@ -14,6 +14,12 @@ class Instructor::LessonsController < ApplicationController
     render plain: 'updated!'
   end
 
+  def destroy
+    section = current_lesson.section
+    current_lesson.destroy
+    redirect_to instructor_course_path(section.course)
+  end
+
   private
 
   def require_authorized_for_current_lesson

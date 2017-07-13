@@ -71,6 +71,7 @@
         <ul class="lessons">
         <% section.lessons.rank(:row_order).each do |lesson| %>
           <li data-update-url="<%= instructor_lesson_path lesson %>">
+           <%= link_to 'Delete',instructor_lesson_path(lesson), method: :delete %>
           <div class="row">
             <div class="col-1">
             <br />
