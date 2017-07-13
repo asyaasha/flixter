@@ -2,8 +2,8 @@ class Course < ApplicationRecord
   mount_uploader :photo, PhotoUploader
 
   belongs_to :user
-  has_many :sections
-  has_many :enrollments
+  has_many :sections, dependent: :destroy
+  has_many :enrollments, dependent: :destroy
   
 
   validates :title, presence: true
