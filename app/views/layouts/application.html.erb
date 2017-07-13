@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Flixter</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -20,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-md-1.5">
         <li class="nav-item">
-          <%= link_to 'See All Trips', courses_path %>
+          <h5><%= link_to 'See All Trips', courses_path %></h5>
           </li>
         </ul>
         <ul class="navbar-nav">
