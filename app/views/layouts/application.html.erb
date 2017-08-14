@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flixter</title>
+    <title>Coder</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= csrf_meta_tags %>
 
@@ -16,12 +16,12 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-lable="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
-    <%= link_to 'Hiker', root_path, class: 'navbar-brand' %>
+    <%= link_to 'Coder', root_path, class: 'navbar-brand' %>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-md-1.5">
         <li class="nav-item">
-          <h5><%= link_to 'See All Trips', courses_path %></h5>
+          <h5><%= link_to 'See All Courses', courses_path %></h5>
           </li>
         </ul>
         <ul class="navbar-nav">
@@ -58,9 +58,9 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-3">
-          <b>Leads</b>
+          <b>Instructors</b>
           <br/>
-          <%= link_to 'Share an Adventure', new_instructor_course_path%>
+          <%= link_to 'Create a Course', new_instructor_course_path%>
           <br/>
           <%=link_to 'My Dashboard', dashboard_path %>
           </div>
@@ -78,7 +78,7 @@
           <br/>
           <span style="color:white">asya.asha@gmail.com</span>
           <br/>
-          <span style="color:white">LA / NY</span>
+          <span style="color:white">Los Angeles</span>
           <br/>
           
         </div>
